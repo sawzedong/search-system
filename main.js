@@ -22,13 +22,15 @@ function myFunction() {
 
   var isFound = false;
   for (var i = 0; i < 3; i++) {
-    if (info[i][0] === myValName) {
+    if (info[i][0].toUpperCase() === myValName.toUpperCase()) {
+      localStorage.setItem("name", info[i][0]);
       localStorage.setItem("height", info[i][1]);
       localStorage.setItem("notes", info[i][2]);
       localStorage.setItem("reference", info[i][3]);
       var myValHeight = info[i][1];
       var myValNotes = info[i][2];
       var myValRef = info[i][3];
+      myValName = info[i][0];
       isFound = true;
     }
   }
