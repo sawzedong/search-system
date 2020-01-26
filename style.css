@@ -21,3 +21,8 @@ html {
 .now {
   background-color: lightgreen;
 }
+
+.linking{
+text-decoration: none;
+cursor:pointer;
+}
