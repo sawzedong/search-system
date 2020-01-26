@@ -24,7 +24,17 @@ display: grid;
 }
 
 .grid-container > .buttona {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(213, 232, 252,1)
+  padding: 15px 5px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  border: solid 1px black;
+}
+
+.grid-container > .buttonnow {
+  background-color: lightgreen;
   padding: 15px 5px;
   border: 1px solid black;
   text-align: center;
@@ -34,7 +44,7 @@ display: grid;
 }
 
 .grid-container > .buttonb {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(213, 232, 252,1)
   padding: 15px 200px;
   border: 1px solid black;
   text-align: center;
