@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+
+  </head>
+  <body>
+
+<ul class="nav">
+    <li><a href="home.html">Home</a></li>
+    <li class="now"><a href="name_search.html">Name Search</a></li>
+    <li><a href="tag_search.html">Tag Search</a></li>
+  </ul>
+  
+    <div id = "formarea">
+    <p>Enter names in the fields, then click "Submit" to submit the form:</p>
+
+    Name: <input type="text" name="fname" id="fname" /><br />
+    <input type="button" onclick="myFunction()" value="Submit"/>
+  </div>
+  <div id = "resultarea">
+    <h1 id="tobename"></h1>
+    <h1 id="tobeheight"></h1>
+    <h1 id="tobenotes"></h1>
+    <img id="tobeimage" src = "" width="100px" height = "100px" class = "trans"></h1>
+    </div>
+    <input type="button" onclick="showHome()" value="Home" />
+    <script src = "main.js"></script>
+
+  </body>
+</html>
