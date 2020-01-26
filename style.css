@@ -4,20 +4,7 @@
 html {
   text-align: center;
 }
-.nav {
-  background-color: yellow;
 
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.nav li {
-  display: inline-block;
-  font-size: 20px;
-  padding: 20px;
-}
 .now {
   background-color: lightgreen;
 }
@@ -25,4 +12,37 @@ html {
 .linking{
 text-decoration: none;
 cursor:pointer;
+}
+
+.grid-container {
+display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+  background-color: #2196F3;
+  margin: -8px;
+  border: solid 1px black;
+}
+
+.grid-container > .buttona {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px 15px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  border: solid 1px black;
+}
+
+.grid-container > .buttonb {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px 120px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  border: solid 1px black;
+}
+
+.grid-container > button > a{
+text-decoration: none;
 }
