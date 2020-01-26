@@ -21,7 +21,7 @@ function myFunction() {
   localStorage.setItem("name", myValName);
 
   var isFound = false;
-  for (var i = 0; i < 3; i++) {
+  for (var i = 0; i < 11; i++) {
     if (info[i][0].toUpperCase() === myValName.toUpperCase()) {
       localStorage.setItem("name", info[i][0]);
       localStorage.setItem("height", info[i][1]);
