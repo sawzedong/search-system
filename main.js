@@ -1,8 +1,19 @@
 /**INFORMATION**/
 var info = [
-  ["pic1", 123, "crazy", "picone.png"],
-  ["pic2", 234, "mad", "pictwin.png"],
-  ["pic3", 345, "stupid", "picthree.png"]
+  //["pic1", 123, "crazy", "picone.png"],
+  //["pic2", 234, "mad", "pictwin.png"],
+  //["pic3", 345, "stupid", "picthree.png"]
+  ["Cheegy", 9, "Unknown Species", "picone.png"],
+  ["Turtle", 6, "Turtle", "picone.png"],
+  ["Chirper", 9.5, "Bird", "picone.png"],
+  ["Little Fluff", 7, "Bear", "picone.png"],
+  ["Waddles", 15.5, "Penguin", "picone.png"],
+  ["Kickly", 19, "Rabbit", "picone.png"],
+  ["Elephantny", 5, "Elephant", "picone.png"],
+  ["Liony", 5, "Lion", "picone.png"],
+  ["Black Beak", 25, "Penguin", "picone.png"],
+  ["Bear Bear", 13, "Bear", "picone.png"],
+  ["Hippo", 29, "Hippo", "picone.png"]
 ];
 function myFunction() {
   var myValName = document.getElementById("fname").value;
@@ -25,7 +36,7 @@ function myFunction() {
     document.getElementById("tobename").innerHTML = "Name: " + myValName;
     document.getElementById("tobeheight").innerHTML =
       "Height: " + myValHeight + "cm";
-    document.getElementById("tobenotes").innerHTML = "Notes: " + myValNotes;
+    document.getElementById("tobenotes").innerHTML = "Species: " + myValNotes;
     document.getElementById("tobeimage").src = myValRef;
     document.getElementById("tobeimage").classList.remove("trans");
     document.getElementById("formarea").classList.add("trans");
