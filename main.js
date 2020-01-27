@@ -58,5 +58,6 @@ function showHome() {
   document.getElementById("tobeheight").innerHTML = "";
   document.getElementById("tobenotes").innerHTML = "";
   document.getElementById("tobeimage").classList.add("trans");
+  document.getElementById("tobeimage").src = "";
   document.getElementById("formarea").classList.remove("trans");
 }
