@@ -39,7 +39,7 @@ var info = [
               "</div>";
           }
         }
-        if(myDiv.innerHTML = ""){
+        if(myDiv.innerHTML == ""){
         myDiv.innerHTML = "<h1>No such species found</h1>"
         }
       }
