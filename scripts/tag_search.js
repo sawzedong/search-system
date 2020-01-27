@@ -1,9 +1,9 @@
-var inputBarItem = document.getElementById("fname");
-inputBarItem.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
-    document.getElementById("myBtn").click();
-  }
-});
+var inputBarItem = document.getElementById("findtag");
+      inputBarItem.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+          document.getElementById("myBtn").click();
+        }
+      });
 
 var info = [
         ["Chirper", 8, "Bird", "images/Chirper.jpg"],
