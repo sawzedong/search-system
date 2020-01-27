@@ -1,21 +1,21 @@
 /**INFORMATION**/
 var info = [
-  ["Chirper", 8, "Bird", "Chirper.jpg"],
-  ["Cheeper", 4.5, "Bird", "Cheeper.jpg"],
-  ["Chirpy", 4.5, "Bird", "Chirpy.jpg"],
-  ["Cheepy", 4.5, "Bird", "Cheepy.jpg"],
-  ["Black Beak", 24.5, "Penguin", "Black-Beak.jpg"],
-  ["Waddles", 15, "Penguin", "Waddles.jpg"],
-  ["Elephatny", 9, "Elephant", "Elephantny.jpg"],
-  ["Bear Bear", 13.5, "Bear", "Bear-Bear.jpg"],
-  ["Turtle", 4, "Turtle", "Turtle.jpg"],
-  ["Hippo", 30, "Hippo", "Hippo.jpg"],
-  ["Kickly", 16.5, "Rabbit", "Kickly.jpg"],
-  ["Liony", 5.5, "Lion", "Liony.jpg"],
-  ["Scavenge Boy", 23, "Cat", "Scavenge-Boy.jpg"],
-  ["Lamby", 8.5, "Sheep", "Lamby.jpg"],
-  ["Sheepy", 21, "Sheep", "Sheephy.jpg"],
-  ["Kitty", 16.5, "Cat", "Kitty.jpg"]
+  ["Chirper", 8, "Bird", "images/Chirper.jpg"],
+  ["Cheeper", 4.5, "Bird", "images/Cheeper.jpg"],
+  ["Chirpy", 4.5, "Bird", "images/Chirpy.jpg"],
+  ["Cheepy", 4.5, "Bird", "images/Cheepy.jpg"],
+  ["Black Beak", 24.5, "Penguin", "images/Black-Beak.jpg"],
+  ["Waddles", 15, "Penguin", "images/Waddles.jpg"],
+  ["Elephatny", 9, "Elephant", "images/Elephantny.jpg"],
+  ["Bear Bear", 13.5, "Bear", "images/Bear-Bear.jpg"],
+  ["Turtle", 4, "Turtle", "images/Turtle.jpg"],
+  ["Hippo", 30, "Hippo", "images/Hippo.jpg"],
+  ["Kickly", 16.5, "Rabbit", "images/Kickly.jpg"],
+  ["Liony", 5.5, "Lion", "images/Liony.jpg"],
+  ["Scavenge Boy", 23, "Cat", "images/Scavenge-Boy.jpg"],
+  ["Lamby", 8.5, "Sheep", "images/Lamby.jpg"],
+  ["Sheepy", 21, "Sheep", "images/Sheephy.jpg"],
+  ["Kitty", 16.5, "Cat", "images/Kitty.jpg"]
 ];
 function myFunction() {
   var myValName = document.getElementById("fname").value;
