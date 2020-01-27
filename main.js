@@ -6,7 +6,7 @@ var info = [
   ["Cheepy", 4.5, "Bird", "images/Cheepy.jpg"],
   ["Black Beak", 24.5, "Penguin", "images/Black-Beak.jpg"],
   ["Waddles", 15, "Penguin", "images/Waddles.jpg"],
-  ["Elephatny", 9, "Elephant", "images/Elephantny.jpg"],
+  ["Elephantny", 9, "Elephant", "images/Elephantny.jpg"],
   ["Bear Bear", 13.5, "Bear", "images/Bear-Bear.jpg"],
   ["Turtle", 4, "Turtle", "images/Turtle.jpg"],
   ["Hippo", 30, "Hippo", "images/Hippo.jpg"],
