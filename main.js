@@ -18,6 +18,12 @@ var info = [
   ["Kitty", 16.5, "Cat", "images/Kitty.jpg"],
   ["Cheegy", 7, "Unknown", "images/Cheegy.jpg"]
 ];
+var inputBarItem = document.getElementById("fname");
+inputBarItem.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+    document.getElementById("myBtn").click();
+  }
+});
 function myNamePageLoad() {
 for(var l = 0; l < info.length; l ++){
     document.getElementById("tobeimage").src = info[l][3];
