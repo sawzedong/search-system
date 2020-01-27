@@ -17,13 +17,19 @@ var info = [
   ["Sheepy", 21, "Sheep", "images/Sheephy.jpg"],
   ["Kitty", 16.5, "Cat", "images/Kitty.jpg"]
 ];
+function myNamePageLoad() {
+for(var l = 0; l < info.length; l ++){
+    document.getElementById("tobeimage").src = info[l][3];
+  }
+document.getElementById("tobeimage").src = "";
+}
 function myFunction() {
   var myValName = document.getElementById("fname").value;
   document.getElementById("formarea").classList.add("trans");
   localStorage.setItem("name", myValName);
 
   var isFound = false;
-  for (var i = 0; i < 11; i++) {
+  for (var i = 0; i < info.length; i++) {
     if (info[i][0].toUpperCase() === myValName.toUpperCase()) {
       localStorage.setItem("name", info[i][0]);
       localStorage.setItem("height", info[i][1]);
