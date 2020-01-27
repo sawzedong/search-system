@@ -15,7 +15,8 @@ var info = [
   ["Scavenge Boy", 23, "Cat", "images/Scavenge-Boy.jpg"],
   ["Lamby", 8.5, "Sheep", "images/Lamby.jpg"],
   ["Sheepy", 21, "Sheep", "images/Sheepy.jpg"],
-  ["Kitty", 16.5, "Cat", "images/Kitty.jpg"]
+  ["Kitty", 16.5, "Cat", "images/Kitty.jpg"],
+  ["Cheegy", 7, "Unknown", "images/Cheegy.jpg"]
 ];
 function myNamePageLoad() {
 for(var l = 0; l < info.length; l ++){
