@@ -64,16 +64,16 @@ var inputBarItem = document.getElementById("checkboxes");
           for (var ij = 0; ij < selected.length; ij++) {
             if (info[i][2] === selected[ij]) {
               myDiv.innerHTML +=
-                "<div>" +
-                "<h3>Name: " +
-                info[i][0] +
-                "</h3><br><h3>Height: " +
-                info[i][1] +
-                "cm</h3><br><h3>Species: " +
-                info[i][2] +
-                "</h3><br><img src='" +
+                "<div class = 'outputBoxDIV'>" +
+                "<img src='" +
                 info[i][3] +
                 "' height = 100px width = 100px>" +
+                "<h3>Name: " +
+                info[i][0] +
+                "</h3>" +
+                "<h3>Species: " +
+                info[i][2] +
+                "</h3><br>" +
                 "</div>";
             }
           }
