@@ -56,3 +56,7 @@
       .grid-container > button > a {
         text-decoration: none;
       }
+#checkboxes {
+      text-align: left;
+      padding-left: 45%;
+      }
