@@ -1,3 +1,9 @@
+var inputBarItem = document.getElementById("checkboxes");
+      inputBarItem.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+          document.getElementById("myBtn").click();
+        }
+      });
 
       var info = [
         ["Chirper", 8, "Bird", "images/Chirper.jpg"],
