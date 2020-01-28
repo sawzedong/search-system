@@ -1,0 +1,58 @@
+.trans {
+        opacity: 0;
+      }
+      html {
+        text-align: center;
+      }
+
+      .now {
+        background-color: lightgreen;
+      }
+
+      .linking {
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 0px;
+        background-color: #2196f3;
+        margin: -8px;
+        border: solid 1px black;
+      }
+
+      .grid-container > .buttona {
+        background-color: rgba(213, 232, 252, 1);
+        padding: 15px 5px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 15px;
+        text-decoration: none;
+        border: solid 1px black;
+      }
+
+      .grid-container > .buttonnow {
+        background-color: lightgreen;
+        padding: 15px 5px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 15px;
+        text-decoration: none;
+        border: solid 1px black;
+      }
+
+      .grid-container > .buttonb {
+        background-color: rgba(213, 232, 252, 1);
+        padding: 15px 200px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 15px;
+        text-decoration: none;
+        border: solid 1px black;
+      }
+
+      .grid-container > button > a {
+        text-decoration: none;
+      }
