@@ -3,6 +3,8 @@
       }
       html {
         text-align: center;
+              background-image: url(background-search-system.jpg);
+              background-repeat: repeat;
       }
 
       .now {
