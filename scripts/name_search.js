@@ -40,12 +40,13 @@
         ageYear -= 1;
     }
     var ageMonth = toMonth - bornmonth;
-    if (ageMonth < 0){
-        ageMonth += 12;
-    } 
+                
     if (toDate < bornday){
         ageMonth -= 1;
     }
+    if (ageMonth < 0){
+        ageMonth += 12;
+    } 
     if (ageYear === 1){
       if(ageMonth === 0){
         return ageYear + " year";
