@@ -1,21 +1,21 @@
 /**INFORMATION**/
           var info = [
-        ["Chirper", 8, "Bird", "images/Chirper.jpg", ],
+        ["Chirper", 8, "Bird", "images/Chirper.jpg", 16, 2, 2017],
         ["Cheeper", 4.5, "Bird", "images/Cheeper.jpg"],
-        ["Chirpy", 4.5, "Bird", "images/Chirpy.jpg"],
-        ["Cheepy", 4.5, "Bird", "images/Cheepy.jpg"],
+        ["Chirpy", 4.5, "Bird", "images/Chirpy.jpg", 20, 2, 2019],
+        ["Cheepy", 4.5, "Bird", "images/Cheepy.jpg", 20, 2, 2019],
         ["Black Beak", 24.5, "Penguin", "images/Black-Beak.jpg", 5, 3, 2015],
         ["Waddles", 15, "Penguin", "images/Waddles.jpg", 11, 5, 2018],
-        ["Elephantny", 9, "Elephant", "images/Elephantny.jpg"],
-        ["Bear Bear", 13.5, "Bear", "images/Bear-Bear.jpg"],
-        ["Turtle", 4, "Turtle", "images/Turtle.jpg"],
-        ["Hippo", 30, "Hippo", "images/Hippo.jpg"],
-        ["Kickly", 16.5, "Rabbit", "images/Kickly.jpg"],
+        ["Elephantny", 9, "Elephant", "images/Elephantny.jpg", 17, 2, 2017],
+        ["Bear Bear", 13.5, "Bear", "images/Bear-Bear.jpg", 18, 2, 2016],
+        ["Turtle", 4, "Turtle", "images/Turtle.jpg", 10, 12, 2019],
+        ["Hippo", 30, "Hippo", "images/Hippo.jpg", 7, 10, 2006],
+        ["Kickly", 16.5, "Rabbit", "images/Kickly.jpg", 5, 3, 2019],
         ["Liony", 5.5, "Lion", "images/Liony.jpg", 4, 3, 2018],
-        ["Scavenge Boy", 23, "Cat", "images/Scavenge-Boy.jpg"],
-        ["Lamby", 8.5, "Sheep", "images/Lamby.jpg"],
-        ["Sheepy", 21, "Sheep", "images/Sheepy.jpg"],
-        ["Kitty", 16.5, "Cat", "images/Kitty.jpg"],
+        ["Scavenge Boy", 23, "Cat", "images/Scavenge-Boy.jpg", 15, 3, 2014],
+        ["Lamby", 8.5, "Sheep", "images/Lamby.jpg", 15, 2, 2015],
+        ["Sheepy", 21, "Sheep", "images/Sheepy.jpg", 16, 2, 2008],
+        ["Angry Hello Kitty", 16.5, "Cat", "images/Kitty.jpg", 14, 2, 2015],
         ["Cheegy", 7, "Unknown", "images/Cheegy.jpg", 4, 3, 2017]
       ];
 
