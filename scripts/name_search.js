@@ -1,23 +1,24 @@
 /**INFORMATION**/
-      var info = [
-        ["Chirper", 8, "Bird", "images/Chirper.jpg"],
+          var info = [
+        ["Chirper", 8, "Bird", "images/Chirper.jpg", ],
         ["Cheeper", 4.5, "Bird", "images/Cheeper.jpg"],
         ["Chirpy", 4.5, "Bird", "images/Chirpy.jpg"],
         ["Cheepy", 4.5, "Bird", "images/Cheepy.jpg"],
-        ["Black Beak", 24.5, "Penguin", "images/Black-Beak.jpg"],
-        ["Waddles", 15, "Penguin", "images/Waddles.jpg"],
+        ["Black Beak", 24.5, "Penguin", "images/Black-Beak.jpg", 5, 3, 2015],
+        ["Waddles", 15, "Penguin", "images/Waddles.jpg", 11, 5, 2018],
         ["Elephantny", 9, "Elephant", "images/Elephantny.jpg"],
         ["Bear Bear", 13.5, "Bear", "images/Bear-Bear.jpg"],
         ["Turtle", 4, "Turtle", "images/Turtle.jpg"],
         ["Hippo", 30, "Hippo", "images/Hippo.jpg"],
         ["Kickly", 16.5, "Rabbit", "images/Kickly.jpg"],
-        ["Liony", 5.5, "Lion", "images/Liony.jpg"],
+        ["Liony", 5.5, "Lion", "images/Liony.jpg", 4, 3, 2018],
         ["Scavenge Boy", 23, "Cat", "images/Scavenge-Boy.jpg"],
         ["Lamby", 8.5, "Sheep", "images/Lamby.jpg"],
         ["Sheepy", 21, "Sheep", "images/Sheepy.jpg"],
         ["Kitty", 16.5, "Cat", "images/Kitty.jpg"],
-        ["Cheegy", 7, "Unknown", "images/Cheegy.jpg"]
+        ["Cheegy", 7, "Unknown", "images/Cheegy.jpg", 4, 3, 2017]
       ];
+
       var inputBarItem = document.getElementById("fname");
       inputBarItem.addEventListener("keyup", function(event) {
         if (event.keyCode === 13) {
@@ -85,6 +86,8 @@
             var myValHeight = info[i][1];
             var myValNotes = info[i][2];
             var myValRef = info[i][3];
+            var myValAge = age(info[i][4], info[i][5], info[i][6]);
+            var myValBirthday = info[i][4]+"/"+info[i][5]+"/"+info[i][6];
             myValName = info[i][0];
             isFound = true;
           }
@@ -95,7 +98,8 @@
             "Height: " + myValHeight + "cm";
           document.getElementById("tobenotes").innerHTML = "Species: " + myValNotes;
           document.getElementById("tobeimage").src = myValRef;
-          document.getElementById("tobeage").innerHTML = "Age: "+ age(1, 2, 2019);
+          document.getElementById("tobeage").innerHTML = "Age: "+ myValAge;
+          document.getElementById("tobebirthday").innerHTML = "Birthday: "+ myValBirthday;
           document.getElementById("tobeimage").classList.remove("trans");
           document.getElementById("formarea").classList.add("trans");
         } else {
@@ -103,6 +107,7 @@
           document.getElementById("tobeheight").innerHTML = "";
           document.getElementById("tobenotes").innerHTML = "";
           document.getElementById("tobeage").innerHTML = "";
+              document.getElementById("tobebirthday").innerHTML = "";
           document.getElementById("tobeimage").classList.add("trans");
         }
         document.getElementById("fname").value = "";
@@ -113,6 +118,7 @@
         document.getElementById("tobeheight").innerHTML = "";
         document.getElementById("tobenotes").innerHTML = "";
         document.getElementById("tobeage").innerHTML = "";
+            document.getElementById("tobebirthday").innerHTML = "";
         document.getElementById("tobeimage").classList.add("trans");
         document.getElementById("tobeimage").src = "";
         document.getElementById("formarea").classList.remove("trans");
