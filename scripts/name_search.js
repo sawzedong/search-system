@@ -65,6 +65,14 @@
     }
     
 }  
+//birthday function
+function birthday(bornday, bornmonth, bornyear){
+    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    bornmonth -= 1;
+    var monthborn = months[bornmonth];
+    
+    return bornday + " " + monthborn + " " + bornyear;
+}  
       function myNamePageLoad() {
       for(var l = 0; l < info.length; l ++){
           document.getElementById("tobeimage").src = info[l][3];
@@ -87,7 +95,7 @@
             var myValNotes = info[i][2];
             var myValRef = info[i][3];
             var myValAge = age(info[i][4], info[i][5], info[i][6]);
-            var myValBirthday = info[i][4]+"/"+info[i][5]+"/"+info[i][6];
+            var myValBirthday = birthday(info[i][4],info[i][5],info[i][6]);
             myValName = info[i][0];
             isFound = true;
           }
