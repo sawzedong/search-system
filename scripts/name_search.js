@@ -50,17 +50,17 @@
       if(ageMonth === 0){
         return ageYear + " year";
       } else if (ageMonth === 1) {
-        return ageYear + " year and " + ageMonth + "month";
+        return ageYear + " year and " + ageMonth + " month";
       } else {
-        return ageYear + " year and " + ageMonth + "months"
+        return ageYear + " year and " + ageMonth + " months"
       }
     } else if (ageYear != 1){
       if(ageMonth === 0){
         return ageYear + " years";
       } else if (ageMonth === 1) {
-        return ageYear + " years and " + ageMonth + "month";
+        return ageYear + " years and " + ageMonth + " month";
       } else {
-        return ageYear + " years and " + ageMonth + "months"
+        return ageYear + " years and " + ageMonth + " months"
       }
     }
     
